@@ -1,0 +1,13 @@
+age: int = 00
+if age > 18 and age < 100:
+    print("!!!CONGRATS!!!  you are able to vote 'but only in india' ")
+
+elif age == 0:
+    print("HOW YOU CAN VOTE GO AND COME BACK  AFTER 18 YEARS ")
+elif age == 100:
+    print('wow!!!****!!! you still alive keep voting')
+elif age > 150:
+    print("Are You Kidding Me ")
+
+else:
+    print("you can not vote please check your AGE")
